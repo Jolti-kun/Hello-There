@@ -1,0 +1,16 @@
+#content{
+    font-family: 'Walter Turncoat', cursive;
+    color: #6540A3;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+
+}
+
+body{
+    background-image: linear-gradient(to right,#D1597D , #F84B2D);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

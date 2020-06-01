@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script src="main.js"></script>
+    <Title>Why, Hello There!</Title>
+    </head>
+    <body>
+    <div id="content">
+        <h1>Type something that you want Raph to hear</h1>
+        <input type="text" placeholder="Message Here" id="input" onkeypress="UpdateDisplay()">
+        <br>
+        <br>
+        <image src="https://cdn.discordapp.com/avatars/138398980185784320/5ad1550eac0f8737a22221861cd2c785.webp?size=256"></image>
+        <image src="https://cdn.discordapp.com/avatars/152289877063499777/ac1c71d870df14d2dcafe3e18531c14a.webp?size=256"></image>
+        <h1 id="display"></h1>
+        <button onclick="SubmitMessage()">Submit</button>
+    </div>
+</body>
+</html>
