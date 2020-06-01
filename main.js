@@ -35,6 +35,7 @@ function AddMessage(message){
         }
         data.quotes.push(message)
         database.update(data)
+        alert("Your message been added to the list!")
     })
 }
 
